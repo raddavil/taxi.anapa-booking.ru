@@ -1,0 +1,63 @@
+body {
+	font-family: 'Arial', sans-serif;
+}
+header {
+	background-image: url(../img/Layer-32.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 739px;
+}
+nav {
+	float: right;
+	margin-top: 48px;
+}
+.menu {
+	display: block;
+}
+.menu li {
+	display: block;
+	float: left;
+	margin-right: 40px;
+}
+.menu a {
+	color: #fff;
+	text-transform: uppercase;
+	font-style: 14px;
+}
+.titles_fisrt {
+	font-size: 24px;
+	color: #ffc61a;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 95px;
+	font-weight: bold;
+}
+.titles_second {
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.button {
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+.images {
+	position: absolute;
+	top: 330px;
+	left: calc(50% - 860px / 2);
+}
+.second {
+	background: #ffc61a;
+	padding-top: 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.podrobnee {
+	padding-bottom: 45px;
+}
+.info {
+	padding-bottom: 25px;
+}
