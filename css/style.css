@@ -64,3 +64,67 @@ nav {
 .third {
 	height: 761px;
 }
+.third_fisrt {
+	font-size: 34px;
+	color: #ffc61a;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 54px;
+	font-weight: bold;
+}
+.third_second {
+	font-size: 42px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 0.6;
+	padding-bottom: 120px;
+}
+.komfort {
+	height: 425px;
+	background: #f5f4f2;
+}
+.images_third {
+	position: absolute;
+	top: -84px;
+}
+.komfort h2 {
+	padding-top: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+.biznes h2 {
+	padding-top: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+.biznes {
+	height: 425px;
+	background: #ffc61a;
+}
+.komfort .text {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.biznes .text {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.komfort .text2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffc61a;
+	font-size: 42px;
+	font-weight: bold;
+}
+.biznes .text2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #121212;
+	font-size: 42px;
+	font-weight: bold;
+}
