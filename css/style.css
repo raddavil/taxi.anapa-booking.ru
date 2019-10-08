@@ -133,4 +133,18 @@ nav {
 	background-image: url(../img/Layer-4.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	line-height: 1.0;
+}
+.fourth_title h3 {
+	color: #ffc61a;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 54px;
+}
+.fourth_text {
+	color: #fff;
+	text-align: left;
+float: right;
 }
