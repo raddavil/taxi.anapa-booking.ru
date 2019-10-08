@@ -128,3 +128,9 @@ nav {
 	font-size: 42px;
 	font-weight: bold;
 }
+.fourth {
+	background: rgba(0,0,0,1.9);
+	background-image: url(../img/Layer-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
