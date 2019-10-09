@@ -138,13 +138,15 @@ nav {
 .fourth_title h3 {
 	color: #ffc61a;
 	text-transform: uppercase;
-	text-align: center;
 	font-weight: bold;
-	font-size: 18px;
-	padding-top: 54px;
+	font-size: 25px;
 }
 .fourth_text {
 	color: #fff;
-	text-align: left;
-float: right;
+	font-size: 18px;
+}
+.imges {
+	float: left;
+	padding-right: 35px;
+	width: 19%;
 }
