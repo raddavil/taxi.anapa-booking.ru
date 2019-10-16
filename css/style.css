@@ -150,3 +150,9 @@ nav {
 	padding-right: 35px;
 	width: 19%;
 }
+.mytable {
+text-align: center;
+}
+.mytable img {
+	width: 40%;
+}
