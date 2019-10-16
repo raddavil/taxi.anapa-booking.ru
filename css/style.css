@@ -151,8 +151,23 @@ nav {
 	width: 19%;
 }
 .mytable {
-text-align: center;
+	text-align: center;
+	margin-top: 30px;
 }
 .mytable img {
 	width: 40%;
+}
+.six {
+background: #ffc61a;
+text-align: center;
+text-transform: uppercase;
+font-weight: bold;
+height: 170px;
+padding-top: 45px;
+}
+.myfooter hr {
+ border: none;
+    color: #ffc61a;;
+    background-color: #ffc61a;; 
+    height: 6px;
 }
