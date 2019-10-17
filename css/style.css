@@ -158,16 +158,39 @@ nav {
 	width: 40%;
 }
 .six {
-background: #ffc61a;
-text-align: center;
-text-transform: uppercase;
-font-weight: bold;
-height: 170px;
-padding-top: 45px;
+	background: #ffc61a;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 170px;
+	padding-top: 45px;
 }
 .myfooter hr {
- border: none;
-    color: #ffc61a;;
-    background-color: #ffc61a;; 
-    height: 6px;
+	border: none;
+	color: #ffc61a;;
+	background-color: #ffc61a;; 
+	height: 6px;
+}
+.myfooter {
+	background: #0c0b0c;
+	padding-top: 86px;
+}
+.pfooter {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+.pfooter1 {
+	color: white;
+	font-size: 18px;
+	padding: 20px;
+}
+.pfooter2 {
+	color: white;
+	font-size: 18px;
+}
+.myfooter i {
+	padding-right: 18px;
 }
