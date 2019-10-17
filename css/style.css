@@ -81,7 +81,7 @@ nav {
 	padding-bottom: 120px;
 }
 .komfort {
-	height: 425px;
+	height: 500px;
 	background: #f5f4f2;
 }
 .images_third {
@@ -101,16 +101,14 @@ nav {
 	padding-bottom: 18px;
 }
 .biznes {
-	height: 425px;
+	height: 500px;
 	background: #ffc61a;
 }
 .komfort .text {
-	text-align: center;
 	padding-bottom: 20px;
 	font-size: 18px;
 }
 .biznes .text {
-	text-align: center;
 	padding-bottom: 20px;
 	font-size: 18px;
 }
@@ -162,8 +160,8 @@ nav {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	height: 170px;
-	padding-top: 45px;
+	/*height: 260px;*/
+	padding: 45px 0;
 }
 .myfooter hr {
 	border: none;
@@ -173,7 +171,7 @@ nav {
 }
 .myfooter {
 	background: #0c0b0c;
-	padding-top: 86px;
+	padding-top: 80px;
 }
 .pfooter {
 	color: white;
