@@ -24,6 +24,10 @@ nav {
 	text-transform: uppercase;
 	font-style: 14px;
 }
+.menu a:hover {
+	color: #fff;
+	text-decoration: none;
+}
 .titles_fisrt {
 	font-size: 24px;
 	color: #ffc61a;
@@ -57,6 +61,7 @@ nav {
 }
 .podrobnee {
 	padding-bottom: 45px;
+	padding-top: 15px;
 }
 .info {
 	padding-bottom: 25px;
@@ -87,6 +92,7 @@ nav {
 .images_third {
 	position: absolute;
 	top: -84px;
+	left: 0px;
 }
 .komfort h2 {
 	padding-top: 120px;
@@ -191,4 +197,18 @@ nav {
 }
 .myfooter i {
 	padding-right: 18px;
+}
+.h__site a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 19.86px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 13px;
+    text-align: center;
+ }
+.h__site a:hover {
+	color: #fff;
+	text-decoration: none;
 }
