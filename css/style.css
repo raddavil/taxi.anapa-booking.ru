@@ -1,5 +1,5 @@
 body {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Roboto Slab', serif;
 }
 header {
 	background-image: url(../img/Layer-32.png);
@@ -23,6 +23,7 @@ nav {
 	color: #fff;
 	text-transform: uppercase;
 	font-style: 14px;
+	font-weight: bold;
 }
 .menu a:hover {
 	color: #fff;
@@ -50,7 +51,6 @@ nav {
 }
 .images {
 	position: absolute;
-	top: 330px;
 	left: calc(50% - 860px / 2);
 }
 .second {
@@ -84,6 +84,7 @@ nav {
 	text-align: center;
 	line-height: 0.6;
 	padding-bottom: 120px;
+	font-weight: 600;
 }
 .komfort {
 	height: 500px;
@@ -92,19 +93,20 @@ nav {
 .images_third {
 	position: absolute;
 	top: -84px;
-	left: 0px;
 }
 .komfort h2 {
 	padding-top: 120px;
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 18px;
+	    font-weight: bold;
 }
 .biznes h2 {
 	padding-top: 120px;
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 18px;
+	    font-weight: bold;
 }
 .biznes {
 	height: 500px;
@@ -199,15 +201,15 @@ nav {
 	padding-right: 18px;
 }
 .h__site a {
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 19.86px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 13px;
-    text-align: center;
- }
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19.86px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 13px;
+	text-align: center;
+}
 .h__site a:hover {
 	color: #fff;
 	text-decoration: none;
