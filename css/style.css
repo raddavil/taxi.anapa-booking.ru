@@ -60,8 +60,8 @@ nav {
 	background-size: cover;
 }
 .podrobnee {
-	padding-bottom: 45px;
-	padding-top: 15px;
+	padding: 33px;
+	text-align: center;
 }
 .info {
 	padding-bottom: 25px;
@@ -99,14 +99,14 @@ nav {
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 18px;
-	    font-weight: bold;
+	font-weight: bold;
 }
 .biznes h2 {
 	padding-top: 120px;
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 18px;
-	    font-weight: bold;
+	font-weight: bold;
 }
 .biznes {
 	height: 500px;
@@ -154,6 +154,7 @@ nav {
 .imges {
 	float: left;
 	padding-right: 35px;
+	padding-bottom: 35px;
 	width: 19%;
 }
 .mytable {
@@ -191,7 +192,7 @@ nav {
 .pfooter1 {
 	color: white;
 	font-size: 18px;
-	padding: 20px;
+	padding: 0 20px 20px;
 }
 .pfooter2 {
 	color: white;
@@ -213,4 +214,24 @@ nav {
 .h__site a:hover {
 	color: #fff;
 	text-decoration: none;
+}
+#myBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	background-color: #ffc61a; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 15px; /* Some padding */
+	border-radius: 10px; /* Rounded corners */
+	font-size: 18px; /* Increase font size */
+	border: double;
+}
+
+#myBtn:hover {
+	background-color: #555; /* Add a da rk-grey background on hover */
 }
