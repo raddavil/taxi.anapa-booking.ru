@@ -61,7 +61,7 @@
 							<div class="form-row">
 								<div class="form-group col-md-12">
 									<label>Ваше имя</label>
-									<input type="text" class="form-control" id="" name='fio' placeholder="Иван">
+									<input type="text" class="form-control" id="" name='name' placeholder="Иван">
 								</div>
 							</div>
 							<div class="form-row">
@@ -71,13 +71,13 @@
 								</div>
 								<div class="form-group col-md-6">
 									<label for="inputEmail4">Email</label>
-									<input type="email" class="form-control" id="Email" placeholder="Email">
+									<input type="email" class="form-control" id="Email" name='email' placeholder="Email">
 								</div>
 							</div>
 							<div class="form-row">
 								<div class="form-group col-md-6">
-									<label>Пункт отправления</label>
-									<select id="otkuda" class="form-control">
+									<label>Где встретить</label>
+									<select id="otkuda" name='otkuda' class="form-control">
 										<option selected>Выбрать...</option>
 										<option>Ж/д вокзал Анапа</option>
 										<option>Аэропорт Анапа</option>
@@ -85,8 +85,8 @@
 									</select>
 								</div>
 								<div class="form-group col-md-6">
-									<label>Пункт Назначения</label>
-									<select id="kuda" class="form-control">
+									<label>Куда отвезти</label>
+									<select id="kuda" name='kuda' class="form-control">
 										<option selected>Выбрать...</option>
 										<option>г. Анапа</option>
 										<option>пр-т Пионерский, п.Джемете</option>
@@ -99,7 +99,7 @@
 							<div class="form-row">
 								<div class="form-group col-md-6">
 									<label>Дата встречи</label>
-									<input type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input" class="form-control">
+									<input type="datetime-local" value="2020-06-01T13:45:00" id="example-datetime-local-input" name='data' class="form-control">
 								</div>								
 								<div class="form-group col-md-6">
 									<div class="podrobnee">
