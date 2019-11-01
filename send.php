@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ваше сообщение успешно отправлено</title>
 	<link rel="stylesheet" href="css/stylesend.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<!--<link rel="stylesheet" href="css/bootstrap.css">-->
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/a6d7718517.js"></script>
 	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -33,16 +34,17 @@
 		<br />Когда встретить: '.$data,
 		"Content-type:text/html;charset=UTF-8");
 	echo 
-	"Ваша заявка успешно отправлена!
+	"<h1>Ваша заявка успешно отправлена!</h1>
 	<p>Наш диспетчер свяжется с Вами в ближайшее время</p>
 	<p>Через 5 секунд Вы будете перемещены на главную страницу</p>
 	$back";
-	exit('<meta http-equiv="refresh" content="5; url=index.html" />');
+	exit('<meta http-equiv="refresh" content="7; url=index.html" />');
  }
     else {
         echo "Для отправки сообщения заполните все поля! $back";
-        exit('<meta http-equiv="refresh" content="55; url=index.html" />');	;
+        exit('<meta http-equiv="refresh" content="5; url=index.html" />');
     }
+
 
 	?>
 

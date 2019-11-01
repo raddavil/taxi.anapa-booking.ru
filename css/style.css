@@ -17,7 +17,6 @@ nav {
 .menu li {
 	display: block;
 	float: left;
-	margin-right: 40px;
 }
 .menu a {
 	color: #fff;
@@ -38,7 +37,7 @@ nav {
 	font-weight: bold;
 }
 .titles_second {
-	font-size: 48px;
+	font-size: 38px;
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
@@ -55,7 +54,7 @@ nav {
 }
 .second {
 	background: #ffc61a;
-	padding-top: 150px;
+	padding-top: 100px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -67,7 +66,7 @@ nav {
 	padding-bottom: 25px;
 }
 .third {
-	height: 761px;
+	padding-bottom: 20px;
 }
 .third_fisrt {
 	font-size: 34px;
@@ -83,12 +82,13 @@ nav {
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 0.6;
-	padding-bottom: 120px;
+	padding-bottom: 40px;
 	font-weight: 600;
 }
 .komfort {
 	height: 500px;
 	background: #f5f4f2;
+	margin-top: 90px;
 }
 .images_third {
 	position: absolute;
@@ -111,6 +111,7 @@ nav {
 .biznes {
 	height: 500px;
 	background: #ffc61a;
+	margin-top: 90px;
 }
 .komfort .text {
 	padding-bottom: 20px;
@@ -122,14 +123,14 @@ nav {
 }
 .komfort .text2 {
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #ffc61a;
 	font-size: 42px;
 	font-weight: bold;
 }
 .biznes .text2 {
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #121212;
 	font-size: 42px;
 	font-weight: bold;
@@ -140,6 +141,7 @@ nav {
 	background-repeat: no-repeat;
 	background-size: cover;
 	line-height: 1.0;
+	padding-bottom: 60px;
 }
 .fourth_title h3 {
 	color: #ffc61a;
@@ -161,77 +163,79 @@ nav {
 	text-align: center;
 	margin-top: 30px;
 }
-.mytable img {
+/*.mytable img {
 	width: 40%;
-}
-.six {
-	background: #ffc61a;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	/*height: 260px;*/
-	padding: 45px 0;
-}
-.myfooter hr {
-	border: none;
-	color: #ffc61a;;
-	background-color: #ffc61a;; 
-	height: 6px;
-}
-.myfooter {
-	background: #0c0b0c;
-	padding-top: 80px;
-}
-.pfooter {
-	color: white;
-	font-size: 25px;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: center;
-}
-.pfooter1 {
-	color: white;
-	font-size: 18px;
-	padding: 0 20px 20px;
-}
-.pfooter2 {
-	color: white;
-	font-size: 18px;
-}
-.myfooter i {
-	padding-right: 18px;
-}
-.h__site a {
-	display: block;
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 19.86px;
-	font-weight: 900;
-	text-transform: uppercase;
-	letter-spacing: 13px;
-	text-align: center;
-}
-.h__site a:hover {
-	color: #fff;
-	text-decoration: none;
-}
-#myBtn {
-	display: none; /* Hidden by default */
-	position: fixed; /* Fixed/sticky position */
-	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
-	z-index: 99; /* Make sure it does not overlap */
-	border: none; /* Remove borders */
-	outline: none; /* Remove outline */
-	background-color: #ffc61a; /* Set a background color */
-	color: white; /* Text color */
-	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-	font-size: 18px; /* Increase font size */
-	border: double;
-}
+	}*/
+	.six {
+		background: #ffc61a;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		/*height: 260px;*/
+		padding: 60px 0;
+	}
+	.myfooter hr {
+		border: none;
+		color: #ffc61a;;
+		background-color: #ffc61a;; 
+		height: 6px;
+	}
+	.myfooter {
+		background: #0c0b0c;
+		padding: 60px 0;
+	}
+	.pfooter {
+		color: white;
+		font-size: 25px;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.pfooter1 {
+		color: white;
+		font-size: 18px;
+		padding: 0 20px 20px;
+	}
+	.pfooter2 {
+		color: white;
+		font-size: 18px;
+		padding-left: 20px;
+	}
+	.myfooter i {
+		padding-right: 18px;
+	}
+	.h__site a {
+		display: block;
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 11px;
+		font-weight: 900;
+		text-transform: uppercase;
+		letter-spacing: 13px;
+		text-align: center;
+		text-nowrap;
+	}
+	.h__site a:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+	#myBtn {
+		display: none; /* Hidden by default */
+		position: fixed; /* Fixed/sticky position */
+		bottom: 20px; /* Place the button at the bottom of the page */
+		right: 30px; /* Place the button 30px from the right */
+		z-index: 99; /* Make sure it does not overlap */
+		border: none; /* Remove borders */
+		outline: none; /* Remove outline */
+		background-color: #ffc61a; /* Set a background color */
+		color: white; /* Text color */
+		cursor: pointer; /* Add a mouse pointer on hover */
+		padding: 15px; /* Some padding */
+		border-radius: 10px; /* Rounded corners */
+		font-size: 18px; /* Increase font size */
+		border: double;
+	}
 
-#myBtn:hover {
-	background-color: #555; /* Add a da rk-grey background on hover */
-}
+	#myBtn:hover {
+		background-color: #555; /* Add a da rk-grey background on hover */
+	}

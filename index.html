@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Трансфер Анапа</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
@@ -18,12 +19,12 @@
 	<header>
 		<div class="container">
 			<div class="clearfix">
-				<nav>
-					<ul class="menu">
-						<li><a href="#">Главная</a></li>				
-						<li><a href="#">О нас</a></li>
-						<li><a href="#">Заказать</a></li>
-						<li><a href="#">Контакты</a></li>
+				<nav class="navbar navbar-expand-sm">
+					<ul class="menu navbar-nav">
+						<li class="nav-item"><a  class="nav-link"  class="nav-link"  class="nav-link"  class="nav-link" href="#">Главная</a></li>
+						<li class="nav-item"><a  class="nav-link"  class="nav-link"  class="nav-link" href="#">О нас</a></li>
+						<li class="nav-item"><a  class="nav-link"  class="nav-link" href="#">Заказать</a></li>
+						<li class="nav-item"><a  class="nav-link" href="#">Контакты</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -32,12 +33,12 @@
 					Закажи трансфер сейчас!
 				</div>
 				<div class="titles_second">
-					+7 918 391-33-18
+					<a href="tel:+79183913318" style="text-decoration: none; color: #fff">+7 918 391-33-18</a>
 				</div>
 				<div class="h__site"><a href="#">www.taxy-anapa.ru</a></div>
 			</div>
 			<div class="images">
-				<img src="img/PNGPIX-COM-Austin-Yellow-BMW-M4-Car-PNG-Image.png" alt="Такси">
+				<img src="img/taxiheader.png" alt="Такси" class="img-fluid";>
 			</div>
 		</div>		
 	</header>
@@ -45,7 +46,7 @@
 		<div class="container-fluid second">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="info"><h2>Закажи встречу в аэропорту или железнодорожном вокзале заранее, онлайн.</h2>
 							<p>Вы можете воспользоваться услугой онлайн заказа на нашем сайте. Диспетчер свяжется с Вами и обговорит все детали поездки. Встреча осуществляется с табличкой «Фамилия туриста»:
 								<ul>
@@ -56,7 +57,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-6"><a name="bron"></a>
+					<div class="col-xs-12 col-md-6"><a name="bron"></a>
 						<form action="send.php" method="post">						
 							<div class="form-row">
 								<div class="form-group col-md-12">
@@ -65,17 +66,17 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label>Телефон</label>
 									<input type="text" class="form-control" id="" name='phone' placeholder="+79181234567">
 								</div>
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label for="inputEmail4">Email</label>
 									<input type="email" class="form-control" id="Email" name='email' placeholder="Email">
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label>Где встретить</label>
 									<select id="otkuda" name='otkuda' class="form-control">
 										<option selected>Выбрать...</option>
@@ -84,7 +85,7 @@
 										<option>Ж/д вокзал Тоннельная</option>
 									</select>
 								</div>
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label>Куда отвезти</label>
 									<select id="kuda" name='kuda' class="form-control">
 										<option selected>Выбрать...</option>
@@ -97,11 +98,11 @@
 								</div>
 							</div>
 							<div class="form-row">
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<label>Дата встречи</label>
 									<input type="datetime-local" value="2020-06-01T13:45:00" id="example-datetime-local-input" name='data' class="form-control">
 								</div>								
-								<div class="form-group col-md-6">
+								<div class="form-group col-xs-12 col-md-6">
 									<div class="podrobnee">
 										<button type="submit" class="btn btn-dark">Отправить</button>
 									</div>
@@ -112,119 +113,121 @@
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<section>
-	<div class="container third">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<div class="third_fisrt">
-					Наш
+	</section>
+	<section>
+		<div class="container third">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="third_fisrt">
+						Наш
+					</div>
+					<div class="third_second">
+						Автопарк
+					</div>
 				</div>
-				<div class="third_second">
-					Автопарк
+				<div class="col-xs-12 col-md-4 komfort">
+					<div class="images_third">
+						<img src="img/Layer-1-copy.png" alt="Комфорт класс" class="img-fluid";>
+					</div>
+					<h2>Комфорт класс</h2>
+					<div class="text">Комфортные авто по доступной цене:
+						<ul>
+							<li>Toyota Corolla</li>
+							<li>Chevrolet Cruze</li>
+							<li>Skoda Octavia</li>
+						</ul>
+					</div>
+					<div class="text2">от 300 руб.</div>
+					<div class="button">
+						<a class="btn btn-warning" href="#komfort" role="button">Подробнее..</a>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 komfort">
-				<div class="images_third">
-					<img src="img/Layer-1-copy.png" alt="Комфорт класс">
+				<div class="col-xs-12 col-md-4 biznes">
+					<div class="images_third">
+						<img src="img/m_minivan.png" style="width: 93%" alt="Минивен" class="img-fluid";>
+					</div>
+					<h2>Минивен</h2>
+					<div class="text">Для большой компании с большим багажом:
+						<ul>
+							<li>Hyundai Starex</li>
+							<li>Volkswagen Caravelle</li>
+						</ul>
+					</div>
+					<div class="text2">от 400 руб.</div>
+					<div class="button">
+						<a class="btn btn-dark" href="#minivan" role="button">Подробнее..</a>
+					</div>
 				</div>
-				<h2>Комфорт класс</h2>
-				<div class="text">Комфортные авто по доступной цене:
-					<ul>
-						<li>Toyota Corolla</li>
-						<li>Chevrolet Cruze</li>
-						<li>Skoda Octavia</li>
-					</ul>
-				</div>
-				<div class="text2">от 300 руб.</div>
-				<div class="button">
-					<a class="btn btn-warning" href="#komfort" role="button">Подробнее..</a>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 biznes">
-				<div class="images_third">
-					<img src="img/m_minivan.png" style="width: 93%" alt="Минивен">
-				</div>
-				<h2>Минивен</h2>
-				<div class="text">Для большой компании с большим багажом:
-					<ul>
-						<li>Hyundai Starex</li>
-						<li>Volkswagen Caravelle</li>
-					</ul>
-				</div>
-				<div class="text2">от 400 руб.</div>
-				<div class="button">
-					<a class="btn btn-dark" href="#minivan" role="button">Подробнее..</a>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-4 komfort">
-				<div class="images_third">
-					<img src="img/taxi-avtobus.png" alt="Микроавтобус">
-				</div>
-				<h2>Микроавтобус</h2>
-				<div class="text">Для путешествий от 11 до 20 человек:
-					<ul>
-						<li>Mercedes Sprinter</li>
-						<li>Ford Transit</li>
-						<li>Volksvagen Crafter</li>
-					</ul>
-				</div>
-				<div class="text2">от 500 руб.</div>
-				<div class="button">
-					<a class="btn btn-warning" href="#mavtobus" role="button">Подробнее..</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="fourth">	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="third_fisrt">
-					Наши
-				</div>
-				<div class="titles_second">
-					преимущества
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div style="padding: 80px 0 60px 0;">
-					<img src="img/star.png" alt="звезда" class="imges">
-					<div class="fourth_title"><h3>Встреча с табличкой</h3></div>
-					<div class="fourth_text">Для Вашего комфорта водитель встретит Вас в аэропорту или на ЖД вокзале с табличкой, на которой будет Ваша фамилия.</div>
-				</div>
-				<div style="padding-bottom: 60px;">
-					<img src="img/castle.png" alt="замок" class="imges">
-					<div class="fourth_title"><h3>Помощь с багажом</h3></div>
-					<div class="fourth_text">Для Вас, дорогие клиенты, наша компания предоставляет помощь в осуществлении переноски и погрузкой багажа абсолютно бесплатно.</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div style="padding: 80px 0 60px 0;">
-					<img src="img/settings.png" alt="шестеренка" class="imges">
-					<div class="fourth_title"><h3>Фиксированная цена</h3></div>
-					<div class="fourth_text">Преимущество такси по фиксированной цене очевидно: Вы заранее знаете стоимость трансфера. Никакой дополнительной оплаты.</div>
-				</div>
-				<div style="padding-bottom: 60px;">
-					<img src="img/time.png" alt="часы" class="imges">
-					<div class="fourth_title"><h3>Детские кресла</h3></div>
-					<div class="fourth_text">Заботливые водители всегда думают о безопасности своих детей, так вот, все наши автомобили оборудованы детскими креслами, бустерами и удерживающими устройствам.</div>
+				<div class="col-xs-12 col-md-4 komfort">
+					<div class="images_third">
+						<img src="img/taxi-avtobus.png" alt="Микроавтобус" class="img-fluid";>
+					</div>
+					<h2>Микроавтобус</h2>
+					<div class="text">Для путешествий от 11 до 20 человек:
+						<ul>
+							<li>Mercedes Sprinter</li>
+							<li>Ford Transit</li>
+							<li>Volksvagen Crafter</li>
+						</ul>
+					</div>
+					<div class="text2">от 500 руб.</div>
+					<div class="button">
+						<a class="btn btn-warning" href="#mavtobus" role="button">Подробнее..</a>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>	
-</section>
-
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="third_fisrt">
-					<h3 style="text-align: center; font-weight: bold;">Наши тарифы</h3>
+	</section>
+	<section class="fourth">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="third_fisrt">
+						Наши
+					</div>
+					<div class="titles_second">
+						преимущества
+					</div>
 				</div>
-				<table class="table table-hover mytable">
+				<div class="col-xs-12 col-md-6">
+					<div style="padding: 80px 0 60px 0;">
+						<!--<img src="img/star.png" alt="звезда" class="imges img-fluid">-->
+						<div class="fourth_title"><h3>Встреча с табличкой</h3></div>
+						<div class="fourth_text">Для Вашего комфорта водитель встретит Вас в аэропорту или на ЖД вокзале с табличкой, на которой будет Ваша фамилия.</div>
+					</div>
+					<div>
+						<!--<img src="img/castle.png" alt="замок" class="imges img-fluid">-->
+						<div class="fourth_title"><h3>Помощь с багажом</h3></div>
+						<div class="fourth_text">Для Вас, дорогие клиенты, наша компания предоставляет помощь в осуществлении переноски и погрузкой багажа абсолютно бесплатно.</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div style="padding: 80px 0 60px 0;">
+						<!--<img src="img/settings.png" alt="шестеренка" class="imges img-fluid">-->
+						<div class="fourth_title"><h3>Фиксированная цена</h3></div>
+						<div class="fourth_text">Преимущество такси по фиксированной цене очевидно: Вы заранее знаете стоимость трансфера. Никакой дополнительной оплаты.</div>
+					</div>
+					<div>
+						<!--<img src="img/time.png" alt="часы" class="imges img-fluid">-->
+						<div class="fourth_title"><h3>Детские кресла</h3></div>
+						<div class="fourth_text">Заботливые водители всегда думают о безопасности своих детей, так вот, все наши автомобили оборудованы детскими креслами, бустерами и удерживающими устройствам.</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="third_fisrt">
+						Наши
+					</div>
+					<div class="third_second">
+						тарифы
+					</div>
+				</div>
+				<table class="table table-hover mytable table-responsive">
 					<thead>
 						<tr>
 							<th scope="col"></th>
@@ -338,10 +341,10 @@
 		</div>
 	</div>
 </section>
-<section class=" six">
+<section class="six">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-xs-12 col-md-12">
 				<div><h4>Позвоните нам что бы сделать заявку</h4><h1>+7 918 391-33-18</h1></div>
 				<h4>или сделай заказ онлайн</h4>
 				<div class="button">
@@ -354,17 +357,17 @@
 <footer class="myfooter">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-xs-12 col-md-4">
 				<p class="pfooter">О нашем такси</p>
 				<hr />
 				<p class="pfooter1">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat risus, eu posuere ex euismod</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-xs-12 col-md-4">
 				<p class="pfooter">Скачать приложение</p>				
 				<hr />
 				<p class="pfooter1">Quisque sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus hendrerit, massa efficitur.Quisque sollicitudin feugiat</p>
 			</div>
-			<div class="col-md-4">
+			<div class="col-xs-12 col-md-4">
 				<p class="pfooter">Контакты</p>
 				<hr />
 				<p class="pfooter2"><i class="fas fa-mobile-alt"></i>+7 918 391-33-18</p>
