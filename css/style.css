@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto Slab', serif;
+	font-display: swap;
 }
 header {
 	background-image: url(../img/Layer-32.png);
