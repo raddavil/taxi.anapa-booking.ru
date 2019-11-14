@@ -1,0 +1,16 @@
+#Создан на сайте https://c-wd.ru/tools/htaccess/
+
+Options +FollowSymLinks
+RewriteEngine On
+
+# Редирект домена с WWW на домен без WWW
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# Защита сайта от спам ссылок
+RewriteCond %{QUERY_STRING} (\<|%3C).*script.*(\>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+RewriteRule ^(.*)$ index.php [F,L]
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
